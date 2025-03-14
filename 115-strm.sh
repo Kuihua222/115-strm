@@ -312,7 +312,7 @@ delete_absent = $delete_absent
 
 # 定义常见的媒体文件扩展名，并合并用户自定义扩展名
 media_extensions = set([
-    "mp4", "mkv", "avi", "mov", "wmv", "flv", "webm", "vob", "iso"
+    "mp4", "mkv", "avi", "mov", "wmv", "flv", "webm", "vob", "iso", "mpeg" ,"mpg", "rmvb"
 ])
 custom_extensions = set("${custom_extensions}".split())
 media_extensions.update(custom_extensions)
